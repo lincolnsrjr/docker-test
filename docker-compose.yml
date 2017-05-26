@@ -1,0 +1,8 @@
+hello-docker-react:
+  build: .
+  dockerfile: Dockerfile
+  container_name: hello-docker-react1
+  ports:
+    - 3000:3000
+  volumes:
+    - ~/Documents/node:/node/
